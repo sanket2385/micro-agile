@@ -9,7 +9,7 @@ Sprints are usually 1-2 weeks in length.
 
 ### Sprint Planning Meeting
 
-A 1-2 hour meeting in two, sometimes three parts:
+A 1-2 hour meeting at the start of the sprint. Two, sometimes three parts:
 
 1) Stakeholders & team - discuss the priorities for the sprint
 2) Team - discuss how they will go about tasks.
@@ -52,12 +52,12 @@ __Epic:__ either 1) a new product feature (e.g 'messaging system v1', blog v3) o
 * High priority tickets -> next sprint
 * All other -> backlogs
 
-### Workflow
+## Workflow
 
-* Todo
-* In progress -> update ticket with testing info, add pull request when a ticket is complete
-* Ready for testing or deployment -> someone tests, code reviews, discusses, more work is usually done, and then the developer who worked on the ticket deploys
-* Deployed or complete
+* __Todo:__ to be started
+* __In progress:__ started. After finishing -> update ticket with testing info, add pull request when a ticket is complete
+* __Ready for testing or deployment__ Someone tests, code reviews, discusses, more work is usually done, and then the developer who worked on the ticket deploys
+* __Deployed or complete__
 
 ## Backlogs
 
@@ -71,6 +71,25 @@ __Epic:__ either 1) a new product feature (e.g 'messaging system v1', blog v3) o
 * Product Manager: guides the team, sets challenges for the team, manages meetings and backlogs
 * Stakeholder: defines the higher-level business objectives
 
+## Code Management
+
+* All code should be stored in a Git repo which should be for code only (no database dumps or static files).
+* The [git-flow branching model](http://nvie.com/posts/a-successful-git-branching-model/) is good for managing new feature development. The [git-flow Git extension](https://github.com/nvie/gitflow) is useful for efficient development using git-flow.
+* __Release branches and versions are not used__ in continuous product development.
+* Feature branches should be named after their ticket name / number, e.g ```git checkout -b feature/PROJ-123```
+
 ## Product Roadmaps
 
-Group product feature epics into 'short-term', 'medium-term' and 'future'
+Group product feature epics into 'short-term', 'medium-term' and 'future'.
+
+TODO: Provide visual example.
+
+## Notes
+
+TODO: Incorporate these notes into this guide.
+
+* Testing: automated tests, manual tests, testing procedure before deploying
+* Continuous integration and dev->stage->production workflow
+* Research & ideation: use Google Docs to list future ideas, brainstorming sessions
+* UX & design: lean user testing & tools to help, design & architecture spikes
+* Coding standards: use linters and code sniffers aggressively and document coding standards
