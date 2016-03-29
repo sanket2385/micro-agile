@@ -34,13 +34,13 @@ Morning time team get-together, 10-20 mins. Say 1) what you did yesterday 2) wha
 ## Tickets
 
 __Story:__ an outline of some functionality without too much specific detail.
-See [Gov.uk/user-stores](https://www.gov.uk/service-manual/agile-delivery/writing-user-stories)
+See [Gov.uk/user-stores](https://www.gov.uk/service-manual/agile-delivery/writing-user-stories). Most tickets should ideally be stories. If a story is too large, break it down.
 
 __Task:__ a discrete and already specified task
 
 __Bug:__ something broken with an already deployed
 
-__Design & Research:__ a design task, or a research task
+__Design & Research:__ a design task, or a research task.
 
 __Meta Task:__ a list of small tasks (e.g 'high priority homepage issues')
 
@@ -52,12 +52,41 @@ __Epic:__ either 1) a new product feature (e.g 'messaging system v1', blog v3) o
 * High priority tickets -> next sprint
 * All other -> backlogs
 
-## Workflow
+## Ticket Workflow
+
+__Scrum board columns__
 
 * __Todo:__ to be started
 * __In progress:__ started. After finishing -> update ticket with testing info, add pull request when a ticket is complete
 * __Ready for testing or deployment__ Someone tests, code reviews, discusses, more work is usually done, and then the developer who worked on the ticket deploys
 * __Deployed or complete__
+
+__Typical story workflow:__
+
+1. Create ticket
+2. Optional: Research stage
+3. Specify acceptance criteria
+
+4. Complete initial Development against acceptance criteria
+5. Create / update existing pull request
+6. Update ticket with how to test & comments
+7. Code review
+
+8. Optional: Repeat 4-7
+9. Merge into master & deploy
+
+__Typical design workflow:__
+
+For new products, features or updates to existing areas:
+
+1. Create design ticket
+2. Do research
+3. Develop prototypes
+4. Optional: UX testing (we sometimes leave this until after MVP has been built)
+5. Other team members review
+6. Move to __deployed__ if integration is complete
+7. Alternatively, create new __story ticket(s)__ for other team members to start with development (e.g MVP development for new features or integration for updates)
+8. Prototypes are used as a point of reference, rather than for pixel-perfect implementation
 
 ## Backlogs
 
