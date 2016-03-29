@@ -29,7 +29,7 @@ The development team present and discuss the latest work to stakeholders and the
 
 ## Daily Scrums
 
-Morning time team get-together, 10-20 mins. Say 1) what you did yesterday 2) what you're planning today 3) if anything is blocking you. Discuss outstanding work and how you can help each other
+Morning time team get-together, 10-20 mins. Say 1) what you did yesterday 2) what you're planning today 3) if anything is blocking you. Discuss outstanding work and how you can help each other, keep it high level. If there are any points of greater discussion, take them outside the meeting.
 
 ## Tickets
 
@@ -91,7 +91,7 @@ For new products, features or updates to existing areas:
 ## Backlogs
 
 1) __Current sprint:__ all tasks currently in development
-2) __Development backlog:__ ready for development
+2) __Sprint backlog:__ ready for development soon(ish)
 3) __Backlog:__ ideas, will need more specification and discussion before development
 
 ## Team Roles
@@ -106,6 +106,7 @@ For new products, features or updates to existing areas:
 * The [git-flow branching model](http://nvie.com/posts/a-successful-git-branching-model/) is good for managing new feature development. The [git-flow Git extension](https://github.com/nvie/gitflow) is useful for efficient development using git-flow.
 * __Release branches and versions are not used__ in continuous product development.
 * Feature branches should be named after their ticket name / number, e.g ```git checkout -b feature/PROJ-123```
+* Git commits should contain one specific thing, rather than several features or unrelated tidy-ups in one commit. This makes commits and PRs simpler for others to review.
 
 ## Product Roadmaps
 
@@ -119,6 +120,12 @@ TODO: Incorporate these notes into this guide.
 
 * Testing: automated tests, manual tests, testing procedure before deploying
 * Continuous integration and dev->stage->production workflow
-* Research & ideation: use Google Docs to list future ideas, brainstorming sessions
+* Research & ideation: use Google Docs to list future ideas, always remember to think about the value generated for the user
+* Use brainstorming sessions for product development plans and ideas
 * UX & design: lean user testing & tools to help, design & architecture spikes
 * Coding standards: use linters and code sniffers aggressively and document coding standards
+* Feedback: group into: business value / user value + critical / future
+
+## Useful Reading
+
+* [Manifesto for Agile Software Development](http://agilemanifesto.org/)
