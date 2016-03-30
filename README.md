@@ -11,17 +11,19 @@ Sprints are usually 1-2 weeks in length.
 
 A 1-2 hour meeting at the start of the sprint. Two, sometimes three parts:
 
-1) Stakeholders & team - discuss the priorities for the sprint
-2) Team - discuss how they will go about tasks.
-3) Product manager & stakeholders - confirm priorities with stakeholders after team estimations and discussion. This can be a quick 5 minute check-in.
+1. Stakeholders & team - discuss the priorities for the sprint
+2. Team - discuss how they will go about tasks.
+3. Product manager & stakeholders - confirm priorities with stakeholders after team estimations and discussion. This can be a quick 5 minute check-in.
 
-__Estimates:__ teams can provide estimates to tasks if they wish. Estimates can help to measure a team's velocity (user story points are best for this) and can help with planning and communicating expectations to stakeholders (sometimes time based estimates are useful here).
+__Estimates:__
+
+Teams can provide estimates to tasks if they wish. Estimates can help to measure a team's velocity (user story points are best for this) and can help with planning and communicating expectations to stakeholders (sometimes time based estimates are useful here).
 
 __Goals & Milestones:__
 
-1) Sprint-goals: span one or multiple sprints (e.g )
-2) Team goals: specific goals for team members (e.g learn React.js)
-3) Milestones: more major and often time-bound, can tie-in to larger business milestones (e.g launch new homepage and PR campaign)
+1. Sprint-goals: span one or multiple sprints (e.g )
+2. Team goals: specific goals for team members (e.g learn React.js)
+3. Milestones: more major and often time-bound, can tie-in to larger business milestones (e.g launch new homepage and PR campaign)
 
 ### Sprint Demo Meeting
 
@@ -66,12 +68,10 @@ __Typical story workflow:__
 1. Create ticket
 2. Optional: Research stage
 3. Specify acceptance criteria
-
 4. Complete initial Development against acceptance criteria
 5. Create / update existing pull request
 6. Update ticket with how to test & comments
 7. Code review
-
 8. Optional: Repeat 4-7
 9. Merge into master & deploy
 
@@ -90,9 +90,9 @@ For new products, features or updates to existing areas:
 
 ## Backlogs
 
-1) __Current sprint:__ all tasks currently in development
-2) __Sprint backlog:__ ready for development soon(ish)
-3) __Backlog:__ ideas, will need more specification and discussion before development
+1. __Current sprint:__ all tasks currently in development
+2. __Sprint backlog:__ ready for development soon(ish)
+3. __Backlog:__ ideas, will need more specification and discussion before development
 
 ## Team Roles
 
